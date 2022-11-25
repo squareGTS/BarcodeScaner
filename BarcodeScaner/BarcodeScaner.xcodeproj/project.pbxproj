@@ -12,6 +12,7 @@
 		5135EFC52930F1070006091F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5135EFC42930F1070006091F /* Assets.xcassets */; };
 		5135EFC82930F1070006091F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5135EFC72930F1070006091F /* Preview Assets.xcassets */; };
 		51C8AEFB2930FADA002B6ED1 /* ScanerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C8AEFA2930FADA002B6ED1 /* ScanerVC.swift */; };
+		51C8AEFD29311682002B6ED1 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C8AEFC29311682002B6ED1 /* ScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		5135EFC42930F1070006091F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5135EFC72930F1070006091F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		51C8AEFA2930FADA002B6ED1 /* ScanerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanerVC.swift; sourceTree = "<group>"; };
+		51C8AEFC29311682002B6ED1 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				5135EFC42930F1070006091F /* Assets.xcassets */,
 				5135EFC62930F1070006091F /* Preview Content */,
 				51C8AEFA2930FADA002B6ED1 /* ScanerVC.swift */,
+				51C8AEFC29311682002B6ED1 /* ScannerView.swift */,
 			);
 			path = BarcodeScaner;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5135EFC32930F1060006091F /* BarcodeScannerView.swift in Sources */,
+				51C8AEFD29311682002B6ED1 /* ScannerView.swift in Sources */,
 				5135EFC12930F1060006091F /* BarcodeScanerApp.swift in Sources */,
 				51C8AEFB2930FADA002B6ED1 /* ScanerVC.swift in Sources */,
 			);
