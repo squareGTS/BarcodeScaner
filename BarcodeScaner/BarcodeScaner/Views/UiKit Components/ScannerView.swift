@@ -23,7 +23,6 @@ struct ScannerView: UIViewControllerRepresentable {
     }
    
     final class Coordinator: NSObject, ScanerVCDelegate {
-        
         private let scanerView: ScannerView
         
         init(scanerView: ScannerView) {
@@ -41,16 +40,15 @@ struct ScannerView: UIViewControllerRepresentable {
                 scanerView.alertItem = AlertContext.invalidDeviceInput
             case .invalidScannedValue:
                 scanerView.alertItem = AlertContext.invalidScanedInput
-                
             }
         }
     }
 }
 
-//struct ScannerView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ScannerView(scannedCode: .constant("123456"), alertItem: .constant(AlertItem(title: Text("test"),
-//                                                                                     message: Text("test"),
-//                                                                                     dismissButton: .default(Text("Ok")))))
-//    }
-//}
+struct ScannerView_Previews: PreviewProvider {
+    static var previews: some View {
+        ScannerView(scannedCode: .constant("123456"), alertItem: .constant(AlertItem(title: "test",
+                                                                                     message: "test",
+                                                                                     dismissButton: .default(Text("Ok")))))
+    }
+}
